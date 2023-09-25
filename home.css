@@ -5,3 +5,19 @@
     list-style: none;
     text-decoration: none;
 }
+
+/* ROOT */
+:root{
+    --bg-color: #000000;
+    --text-color: white;
+    --logo-color: snow;
+    --ahover-color: #FB5607;
+    --bg2-color: #0EAD69;
+    --footer-color: #242424;
+}
+
+/* BODY */
+body{
+    color:var(--text-color);
+    background: var(--bg-color);
+}
