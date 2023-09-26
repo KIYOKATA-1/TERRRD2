@@ -77,7 +77,7 @@ nav-link{
 }
 
 .nav-link:hover{
-    color: var(--ahover-color);
+    color: var(--text-color);
 }
 
 .navbar-brand {
@@ -107,4 +107,8 @@ nav-link{
     transition: 0.5s;
     background:#47ffaf;
     color: var(--logo-color);
+}
+
+#offcanvasNavbar{
+    background: #0EAD69;
 }
