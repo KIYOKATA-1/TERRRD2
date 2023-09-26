@@ -69,3 +69,42 @@ nav-link{
     width: 30rem;
     transform: translateX(0px);
 }
+
+.nav-link{
+    color: #000000;
+    font-family:'Kdam Thmor Pro', sans-serif; 
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: var(--ahover-color);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 5rem;
+    font-family: 'Black Ops One', cursive;
+}
+.fs-4 {
+    font-weight: 600;
+    font-size: 5rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+.start-btn{
+    background: #0EAD69;
+    border: none;
+    color: var(--logo-color);
+    padding: 15px 35px;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.start-btn:hover{
+    box-shadow: 0 6px 8px 0 rgb(0, 226, 68), 0 7.5px 25px 0 rgb(0, 226, 68);
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background:#47ffaf;
+    color: var(--logo-color);
+}
