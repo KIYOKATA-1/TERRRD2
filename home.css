@@ -78,6 +78,7 @@ nav-link{
 
 .nav-link:hover{
     color: var(--text-color);
+    font-size: 1.4rem;
 }
 
 .navbar-brand {
