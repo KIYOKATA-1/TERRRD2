@@ -18,6 +18,61 @@
 
 /* BODY */
 body{
-    color:var(--text-color);
+    color: var(--text-color);
     background: var(--bg-color);
 }
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.about-text span{
+    font-size: 5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.about-text h2{
+    font-size: 1.3rem;
+    font-family: 'Black Ops One', cursive;
+    margin: 40px;
+    justify-content: space-between;
+    display:flex;
+    color: var(--text-color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-transform: uppercase;
+
+}
+
+nav-link{
+    font-size: 6rem;
+    color: #000000;
+}
+
+.popular-text{
+    font-size: 6rem;
+    color: var(--text-color);
+    text-align: center;
+    align-items: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+.popular-container{
+    display: grid;
+    place-items: center;
+}
+
+.popular-container img{
+    width: 30rem;
+    transform: translateX(0px);
+}
+
+
+nav-item a:hover{
+    text-decoration: underline;
+}
+
+
