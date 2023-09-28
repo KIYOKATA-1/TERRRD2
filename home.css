@@ -155,9 +155,15 @@ nav-link{
     font-size: 3.2rem;
 }
 
-.carousel-inner{
-    display: grid;
-    place-items: center;
-    width: 30rem;
-    height: auto;
+
+.carousel-inner {
+    position: relative;
+}
+.carousel-item {
+}
+.carousel-item.active {
+}
+.card-img {
+}
+.w-50 {
 }
