@@ -137,7 +137,7 @@ nav-link{
     border-radius: 15px;
 }
 
-.featured img{
+.info-container img{
     width: 30rem;
     display: grid;
     place-items: center;
@@ -153,17 +153,4 @@ nav-link{
 .popular-container .popular-moto:hover{
     color: white;
     font-size: 3.2rem;
-}
-
-
-.carousel-inner {
-    position: relative;
-}
-.carousel-item {
-}
-.carousel-item.active {
-}
-.card-img {
-}
-.w-50 {
 }
