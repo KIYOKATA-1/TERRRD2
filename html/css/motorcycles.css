@@ -42,3 +42,14 @@ body{
     font-size: 5rem;
     font-family: 'Black Ops One', cursive;
 }
+#offcanvasNavbar{
+    background: #9BA8AB;
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
