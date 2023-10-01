@@ -208,7 +208,7 @@ body{
 
  .box-container{
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 25px auto;
  }
 
  .flex-box{
@@ -218,20 +218,27 @@ body{
  .info-img{
     max-width: 500px;
     margin-right: 20px;
+    filter: contrast(1.2);
  }
  .text-box{
     flex: 2;
+    color: #050f15;
  }
 .text-box h1{
-    font-size: 24px;
+    font-size: 3.2rem;
     margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 .text-box p{
-    font-size: 16px;
+    font-size: 2rem;
     margin: 5px 0;
+    text-decoration: dotted;
+    font-family: 'Khand', sans-serif;
 }
 .text-box ul{
     list-style: disc;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 1.5rem;
+    text-decoration: dotted;
+    font-family: 'Changa', sans-serif;
 }
