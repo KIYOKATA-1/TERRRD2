@@ -281,4 +281,7 @@ body{
     .navbar-brand {
         font-size: 5rem;
     }
+    .home .slide .content span {
+        font-size: 4rem;
+    }
 }
