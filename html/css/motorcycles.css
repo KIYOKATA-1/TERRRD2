@@ -284,4 +284,10 @@ body{
     .home .slide .content span {
         font-size: 4rem;
     }
+    .home .slide .content h3 {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 3rem;
+    }
 }
