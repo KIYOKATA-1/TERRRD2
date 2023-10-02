@@ -298,3 +298,192 @@ body{
         font-size: 3rem;
     }
 }
+
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+
+.w-100-height{
+    height: 90vh;
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ .carousel-caption h5{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 1px #050f15;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: left;
+
+ }
+
+ .carousel-caption h1{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke: 1px #050f15;
+    text-transform: uppercase;
+    text-align: top;
+    letter-spacing: 2px;
+    line-height: 60px;
+ }
+
+
+ .carousel-caption p{
+    width: 60%;
+    font-size: 27px;
+    line-height: 1.9;
+    text-align: left;
+    -webkit-text-stroke: 1px #050f15;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+  } 
+
+  .btn-go{
+    background: transparent;
+    width: 220px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    transition: .3s ease-in;
+  }
+  .btn-go:hover{
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
+    width: 215px;
+    transition: .3s ease-in;
+  }
+
+
+  .mb-3{
+    position: relative;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px 20px 10px rgba(0, 186, 63, 0.68);
+    width: 1200px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+
+  .mb-3 label{
+    font-size: 42px;
+    display: flex;
+    margin-left: 50%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 1px #050f15;
+  }
+
+.mb-3 :where(input, textarea){
+    border: 3px solid black;
+    transition: .3s ease-in-out;
+}
+
+.mb-3 :where(input, textarea):hover{
+    border: 3px solid rgba(0, 186, 63, 0.68);
+
+}
+
+.send-btn{
+    width: 250px;
+    align-items: center;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 75px;
+    height: 64px;
+    border-radius: 6px;
+    border: 4px solid rgba(0, 186, 63, 0.68);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    background: transparent;
+    color: white;
+    box-shadow: 2px 2px 20px 10px rgba(0, 186, 63, 0.68);
+    transition: .3s ease-in;
+}
+.send-btn:hover{
+    background: white;
+    color: rgba(0, 186, 63, 0.68);
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.68);
+}
+
+
+.carousel-caption h3{
+    font-size: 5rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    text-decoration: underline;
+    -webkit-text-stroke: 2px var(--bg2-color);
+}
+.carousel-caption h4{
+    font-size: 2.5rem;
+    font-family: 'Teko', sans-serif;
+
+}
+
+.carousel-caption select{
+    backdrop-filter: blur(48px);
+    background: transparent;
+    height: 42px;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Teko', sans-serif;
+    display: grid;
+    justify-content: space-between;
+}
+
+.card {
+    width: 570px;
+    margin: 0 auto;
+    background: #4A5C6A;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    filter: contrast(1.2);
+}
+
+.card-text h4{
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.card-title{
+    font-size: 2.6rem;
+    color: white;
+    -webkit-text-stroke: 2px blue;
+    font-family: 'Oswald', sans-serif;
+}
+
+.yamaha-btn{
+    background: white;
+    width: 220px;
+    border-radius: 5px solid blue;
+    outline: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    transition: .3s ease-in;
+}
+
+.yamaha-btn:hover{
+    box-shadow: 2px 2px 10px 5px rgba(5, 63, 255, 0.5);
+    width: 215px;
+    transition: .3s ease-in;
+}

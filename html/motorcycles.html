@@ -31,17 +31,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <!-- GOOGLE FONTS END -->
     <link rel="stylesheet" href="css/motorcycles.css">
     <!-- icon -->
     <link rel="icon" href="img/iconsite.png" type="image/x-icon">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-dark bg-transparent fixed-top">
         <div class="container">
-          <a class="navbar-brand fs-4" href="home.html" style="color: #050f15;">LEXX</a>
+          <a class="navbar-brand fs-4" href="home.html" style="color: white; -webkit-text-stroke: 1px #050f15;">LEXX</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" style="background: #050f15;">
             <span class="navbar-toggler-icon"></span>
@@ -74,52 +85,92 @@
 
   <!-- header end -->
   <!-- home start -->
+  <section class="">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pic1.png" class="d-block w-100-height" alt="img1" style="filter: contrast(1.2);">
+          <div class="carousel-caption carousel1">
+            <p>1 / 3</p>
+            <h5>KAWASAKI</h5>
+            <div class="d-flex justify-content-evenly" style="color: black; background: transparent; display: flex; justify-content: space-between; padding: 10px; border-radius: 12px; ">
+              <select class="form-select w-50 rouded-0" aria-label="Default select example">
+                <option selected>Kawasaki NINJA®</option>
+              </select>
+              &nbsp;
+              <select class="form-select w-50 rouded-0" aria-label="Default select example">
+                <option selected>SPORT</option>
+                <option value="1">NINJA® 400</option>
+                <option value="2">NINJA® 650</option>
+                <option value="3">NINJA® 1000SX </option>
+              </select>
+              &nbsp;
+              <select class="form-select w-50 rouded-0" aria-label="Default select example">
+                <option selected>SUPERSPORT</option>
+                <option value="1">NINJA® ZX™-4RR</option>
+                <option value="2">NINJA® ZX™-6R</option>
+                <option value="3">NINJA® ZX™-10R</option>
+                <option value="4">NINJA® ZX™-14R</option>
+              </select>
+              &nbsp;
+              <button class="btn-go">GO</button>
+    
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic2.png" class="d-block w-100-height" alt="img2" style="filter: brightness(45%);">
+          <div class="carousel-caption carousel1">
+            <p>2 / 3</p>
+            <h1>YOU CAN SIGN UP <br>
+              FOR A FREE CONSULTATION</h1>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">&nbsp;Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name@astanait.edu.kz">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">About YOU</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="My Name is John, I am 27 years old"></textarea>
+              </div>
+              <button class="send-btn" type="button">SEND</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic3.png" class="d-block w-100-height" alt="img3" style="filter: contrast(1.2); filter: brightness(50%);">
+          <div class="carousel-caption carousel1">
+            <p>3 / 3</p><br>
+            <h3>KAWASAKI NINJA H2R</h3>
+            <h4>One of the fastest motorcycles</h4>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="moto-information" style="align-items: center; text-align: center;">
+    <h1>INFORMATION ABOUT MOTORCYCLES</h1>
+    <div class="card">
+      <img src="img/yamahar7.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">YAMAHA R7</h5>
+        <div class="card-text">
+          <h4><i class="bi bi-fuel-pump"></i>&nbsp;Engine:</h4>
+          <p>689cc</p>
+          <h4><i class="bi bi-speedometer2"></i>&nbsp;Top Speed:</h4>
+          <p>298 km/h</p>
+        </div>
+        <button class="yamaha-btn">MORE</button>
+      </div>
+    </div>
+  </section>
 
-  <section class="home" id="home" style="background: url('img/homebg.png') no-repeat; background-size: cover; filter: contrast(1.2); border-radius: 6px;">
-    <div class="slide">
-      <div class="content">
-        <span>Forever Young</span>
-        <h3>Among the roar of engines and the wind in our hair, we strive for eternal youth </h3>
-      </div>
-      <div class="containerr">
-        <div class="overlay">
-          <h2 class="text">Forward, full speed! <br> Embark on an exciting journey along the adrenaline roads with our motorcycles</h2>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="regist-container">
-    <div class="input-group">
-      <input type="text" required>
-      <label for="">Name</label>
-    </div>
-    <div class="input-group">
-      <input type="text" required>
-      <label for="">Last Name</label>
-    </div>
-    <a href="" class="getord-btn">GET ORDER</a>
-    <br>
-  </section>
-  <section class="info-box">
-    <div class="box-container">
-      <div class="flex-box">
-        <img src="img/zx6r.png" alt="" class="info-img">
-        <div class="text-box">
-          <h1>Kawasaki</h1>
-          <p>NEW 2024 • NINJA® ZX™-6R</p>
-          <p>ADDITIONAL VEHICLE FEATURES:</p>
-          <ul>
-            <li>Kawasaki Quick Shifter (KQS)</li>
-            <li>Selectable power modes combined with Kawasaki TRaction Control (KTRC)</li>
-            <li>Kawasaki Intelligent anti-lock Brake System (KIBS)</li>
-            <li>SHOWA Separate Function Fork Big Piston (SFF-BP), fully adjustable</li>
-            <li>Pressed-aluminum perimeter frame</li>
-            <li>Pirelli Diablo Rosso IV tires</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
   <footer>
     <!-- place footer here -->
   </footer>
