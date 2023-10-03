@@ -517,3 +517,11 @@ body{
   .carousel-item:hover .overlay {
     width: 100%;
   }
+
+  footer{
+    font-size: 1.4rem;
+    font-family: 'Black Ops One', cursive;
+    padding: 20px; 
+    text-align: center;
+    color: var(--text-color);
+}
