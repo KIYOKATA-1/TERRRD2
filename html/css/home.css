@@ -47,7 +47,40 @@ body{
     text-align: justify;
     text-transform: uppercase;
     float: right;
+    box-shadow: 0 12px 16px 0 #4A5C6A, 0 15px 50px 0 #4A5C6A;
+    border-radius: 25px; 
+    align-items: center;
+}
 
+#info .carousel-inner{
+    width: calc(100% - 10%); height: 570px; 
+    border-radius: 20px; 
+    filter: contrast(1.2); 
+    backdrop-filter: blur(12px);
+    left: 5.2%;
+}
+
+.offcanvas-title {
+    font-size: 3rem;
+    font-family: 'Black Ops One', cursive;
+    color: snow;
+}
+
+.offcanvas-subtitle {
+    font-size: 1.5rem;
+    font-family: 'Black Ops One', cursive;
+    color: snow;
+}
+
+#home h1{
+    font-size: 6rem; 
+    font-family: 'Anton', sans-serif;
+}
+#home h3{
+    font-size: 3rem; 
+    font-family: 'Shadows Into Light', cursive; 
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .popular-text{
@@ -158,57 +191,6 @@ footer{
     color: var(--text-color);
 }
 
-
-@media (max-width: 767px) {
-    .about {
-        grid-template-columns: 1fr;
-        align-items: center;
-        text-align: center;
-        margin-left: 40%;
-    }
-
-    .about-text span {
-        float: none;
-        left: auto;
-        text-align: center;
-    }
-
-    .about-text h2 {
-        float: none;
-        text-align: center;
-        margin: 20px;
-    }
-
-    .popular-text {
-        font-size: 4rem;
-    }
-
-    .popular-container img {
-        margin-left: 50%;
-        width: 20rem;
-    }
-
-    .nav-link,
-    .start-btn {
-        font-size: 1rem;
-        margin-left: 80%;
-    }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-    .about-text span {
-        font-size: 3rem;
-    }
-
-    .about-text h2 {
-        font-size: 1.1rem;
-    }
-
-    .popular-text {
-        font-size: 5rem;
-    }
-
-    .nav-link,
-    .start-btn {
-        font-size: 1.1rem;
-    }
+@media (max-width: 1200px) {
+    
 }
