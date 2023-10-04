@@ -83,7 +83,7 @@ body{
     letter-spacing: 2px;
 }
 
-.popular-text{
+.popular-text h1{
     font-size: 6rem;
     color: var(--text-color);
     text-align: center;
@@ -115,6 +115,12 @@ body{
     font-family:'Kdam Thmor Pro', sans-serif; 
     font-size: 1.2rem;
     border-radius: 12px 25px;
+}
+
+.btn-close{
+    margin-left: 50%;
+    margin-top: 20%;
+    margin: 20px 20px
 }
 
 .nav-link:hover{
@@ -191,6 +197,216 @@ footer{
     color: var(--text-color);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+
+    .about-text span{
+        font-size: 4rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        float: left;
+        left: 60px;
+    }
     
+    .about-text h2{
+        font-size: 1.1rem;
+        font-family: 'Black Ops One', cursive;
+        margin: 20px;
+        justify-content: space-between;
+        display:flex;
+        color: var(--text-color);
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: justify;
+        text-transform: uppercase;
+        float: right;
+        box-shadow: 0 12px 16px 0 #4A5C6A, 0 15px 50px 0 #4A5C6A;
+        border-radius: 25px; 
+        align-items: center;
+    }
+    
+    #info .carousel-inner{
+        width: calc(100% - 10%); 
+        height: 200px; 
+        border-radius: 20px; 
+        filter: contrast(1.2); 
+        backdrop-filter: blur(12px);
+        left: 5.2%;
+    }
+    
+    .offcanvas-title {
+        font-size: 3rem;
+        font-family: 'Black Ops One', cursive;
+        color: snow;
+    }
+    
+    .offcanvas-subtitle {
+        font-size: 1.5rem;
+        font-family: 'Black Ops One', cursive;
+        color: snow;
+    }
+    
+    #home h1{
+        font-size: 3rem; 
+        font-family: 'Anton', sans-serif;
+    }
+    #home h3{
+        font-size: 1.5rem; 
+        font-family: 'Shadows Into Light', cursive; 
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .popular-text h1{
+        font-size: 3rem;
+        color: var(--text-color);
+        text-align: center;
+        align-items: center;
+        font-family: 'Black Ops One', cursive;
+    
+    }
+    .popular-container img{
+        width: 30rem;
+        transform: translateX(0px);
+        opacity: 1.2;
+        filter: contrast(1.2);
+    }
+    .popular-container h4{
+        font-size: 1.5rem;
+        font-family: 'Black Ops One', cursive;
+        float: left;
+        
+    }
+    
+    #offcanvasNavbar{
+        background: #9BA8AB;
+        border: medium none;
+        background-image: none; 
+        background: transparent;
+        float: left;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+    }
+    
+    .info-container img{
+        width: 15rem;
+        display: grid;
+        place-items: center;
+    }
+    
+    .popular-container .popular-moto{
+        color: var(--text-color);
+        font-size: 1.5rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-decoration: none;
+    }
+    
+    .popular-container .popular-moto:hover{
+        color: white;
+        font-size: 1.2rem;
+    }
+    
+    footer{
+        font-size: 1rem;
+        font-family: 'Black Ops One', cursive;
+        padding: 20px; 
+        text-align: center;
+        color: var(--text-color);
+    }
+    .btn-close{
+        margin-left: 70%;
+        margin-top: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    #home h1{
+        font-size: 2rem; 
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+    }
+    #home h3{
+        font-size: 1.2rem; 
+        font-family: 'Shadows Into Light', cursive; 
+        font-weight: 300;
+        text-align: center;
+    }
+    .start-btn{
+        background: #11212D;
+        border: none;
+        color: var(--logo-color);
+        padding: 7px 17.5px;
+        border-radius: 17.5px;
+        font-size: 1rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    #offcanvasNavbar{
+        background: #9BA8AB;
+        border: medium none;
+        background-image: none; 
+        background: transparent;
+        float: left;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        width: 576px;
+    }
+    .about-text span{
+        font-size: 2.2rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        margin-left: 60px;
+    }
+    .about-text h2{
+        font-size: 1rem;
+        font-family: 'Black Ops One', cursive;
+        justify-content: space-between;
+        display:flex;
+        color: var(--text-color);
+        font-weight: 600;
+        text-align: justify;
+        text-transform: uppercase;
+        float: right;
+        box-shadow: 0 6px 8px 0 #4A5C6A, 0 15px 50px 0 #4A5C6A;
+        border-radius: 12px; 
+        align-items: center;
+    }
+    .popular-text h1{
+        font-size: 1.8rem;
+        color: var(--text-color);
+        text-align: center;
+        align-items: center;
+        font-family: 'Black Ops One', cursive;
+    
+    }
+    .popular-container img{
+        width: 20rem;
+        transform: translateX(0px);
+        opacity: 1.2;
+        filter: contrast(1.2);
+    }
+    .popular-container h4{
+        font-size: 1.1rem;
+        font-family: 'Black Ops One', cursive;
+        float: left;
+    }
+    #info .carousel-inner{
+        width: calc(100% - 10%); 
+        height: 100px; 
+        border-radius: 20px; 
+        filter: contrast(1.2); 
+        backdrop-filter: blur(12px);
+        left: 5.2%;
+        align-items: center;
+    }
+    
+    .btn-close{
+        margin-left: 50%;
+        margin-top: 10%;
+    }
 }
